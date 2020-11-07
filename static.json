@@ -5,7 +5,6 @@
       "Content-Type" : "text/plain; charset=UTF-8",
       "Access-Control-Allow-Origin": "*"
     },
-    
   "main": "index.js",
   "repository": "https://github.com/Lazarenko-Alexandr/week1.git",
   "author": "Alexandr Lazarenko",
@@ -13,5 +12,4 @@
   "scripts": {
     "start": "node index.js"
   }
- 
 }
