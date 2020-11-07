@@ -12,4 +12,4 @@ require('http')
   
   res.end('itmo287666');
 })
-.listen(process.env.PORT
+.listen(process.env.PORT);
