@@ -11,7 +11,7 @@ require('http')
   if (req.url === '/login/') return res.end('itmo287666');
   if (req.url === '/sample/') return res.end('function task(x) {return x * Math.pow(x, 2);}');
   if (req.url === '/promise/') return res.end('function task(x) {function task(x) {return new Promise((res, rej) => x < 18 ? rej('no') : res('yes')); }');
-  if (req.url === '/fetch/') return res.end(src="https://vk.com/alexandr.lazarenko97");
+  if (req.url === '/fetch/') return res.end();
   res.end('itmo287666');
 })
 .listen(process.env.PORT);
